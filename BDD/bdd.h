@@ -41,8 +41,9 @@ typedef unsigned boolean;
 #define TRUE 1
 #define FALSE 0
 
-#define BDD_MAX_TOTAL_TABLE_SIZE 0x1000000 
+#define BDD_MAX_TOTAL_TABLE_SIZE 0x1000000000 
 /* = 2^24 corresponding to three bytes */
+/* 2^32 */
 
 #define BDD_MAX_INDEX 0xfffe
 /* = 0xfffe (since 0xffff = BDD_LEAF_INDEX denotes a leaf) */
